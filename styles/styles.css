@@ -1,0 +1,99 @@
+/* Thiết lập font chung cho trang */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Màu nền tổng thể */
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #333; /* Màu chữ */
+}
+
+/* Bảng danh sách sản phẩm */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff; /* Màu nền cho bảng */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng cho bảng */
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table td a {
+    color: #007bff; /* Màu chữ cho các liên kết */
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+table td a:hover {
+    text-decoration: underline; /* Gạch chân khi di chuột qua */
+}
+
+/* Nút thêm sản phẩm mới */
+.add-button {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #28a745; /* Màu nền */
+    color: #fff; /* Màu chữ */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.add-button:hover {
+    background-color: #218838; /* Màu nền khi di chuột qua */
+    color: #fff;
+}
+
+/* Form tạo sản phẩm mới */
+.form-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* Màu nền */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+    border-radius: 5px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-container input[type="text"], .form-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container input[type="submit"] {
+    background-color: #007bff; /* Màu nền */
+    color: #fff; /* Màu chữ */
+    border: none;
+    cursor: pointer;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #0056b3; /* Màu nền khi di chuột qua */
+}
+
+.create-form-popup {
+    display: none;
+}
