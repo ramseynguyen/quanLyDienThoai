@@ -24,8 +24,8 @@ Kiểm tra tính bảo mật và xử lý lỗi.
 Detail
 Bước 1: Thiết kế cơ sở dữ liệu MySQL
     1. Mở trình quản lý cơ sở dữ liệu MySQL phpMyAdmin
-    2. Tạo một cơ sở dữ liệu mới (nếu chưa có).
-    3. Chọn cơ sở dữ liệu mới tạo và tạo một bảng mới có tên là dienthoai.
+    2. Tạo một cơ sở dữ liệu mới là: san_pham
+    3. Chọn cơ sở dữ liệu mới tạo (san_pham) và tạo một bảng mới có tên là dienthoai.
         ma_sp: Mã sản phẩm, đây có thể là một số duy nhất hoặc một chuỗi ký tự, tùy thuộc vào cách bạn muốn tự định nghĩa.
         ten: Tên của điện thoại.
         gia: Giá của điện thoại.
