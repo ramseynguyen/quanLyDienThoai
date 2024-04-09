@@ -5,14 +5,9 @@ Tạo các trang HTML cơ bản cho CRUD (ví dụ: index.php, create.php, edit.
 Sử dụng CSS để thiết kế giao diện cho các trang này.
 Bước 3: Lập trình CRUD với PHP
 Read (Xem):
-Trong index.php, kết nối cơ sở dữ liệu và truy vấn để lấy danh sách sản phẩm và hiển thị chúng.
 Create (Tạo):
-Trong create.php, tạo một form để người dùng nhập thông tin của sản phẩm mới và thêm dữ liệu vào cơ sở dữ liệu khi form được gửi đi.
 Update (Cập nhật):
-Trong edit.php, hiển thị một form điền thông tin sản phẩm hiện tại và cho phép người dùng cập nhật thông tin.
-Xử lý form để cập nhật dữ liệu trong cơ sở dữ liệu khi form được gửi đi.
 Delete (Xóa):
-Trong index.php, cung cấp một nút hoặc link để xóa sản phẩm.
 Xử lý yêu cầu xóa và thực hiện truy vấn xóa trong cơ sở dữ liệu.
 Bước 4: Kết nối PHP với cơ sở dữ liệu MySQL
 Trong các tệp PHP, sử dụng các hàm như mysqli_connect() và mysqli_query() để kết nối và thực hiện các truy vấn SQL.
