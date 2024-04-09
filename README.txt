@@ -1,8 +1,8 @@
 Bước 1: Thiết kế cơ sở dữ liệu MySQL
-Tạo một cơ sở dữ liệu MySQL với một bảng "phones" bao gồm các trường: id (Primary Key), name, brand, price, và description.
+Tạo một cơ sở dữ liệu MySQL với một bảng "dienthoai" bao gồm các trường: ma_sp, ten,gia,hinh,loai,nsx,ngay_tao,ngay_cap_nhap
 Bước 2: Thiết kế giao diện HTML và CSS
 Tạo các trang HTML cơ bản cho CRUD (ví dụ: index.php, create.php, edit.php).
-Sử dụng CSS để thiết kế giao diện cho các trang này. Bạn có thể sử dụng CSS thuần hoặc thư viện CSS như Bootstrap hoặc Foundation.
+Sử dụng CSS để thiết kế giao diện cho các trang này.
 Bước 3: Lập trình CRUD với PHP
 Read (Xem):
 Trong index.php, kết nối cơ sở dữ liệu và truy vấn để lấy danh sách sản phẩm và hiển thị chúng.
@@ -16,9 +16,6 @@ Trong index.php, cung cấp một nút hoặc link để xóa sản phẩm.
 Xử lý yêu cầu xóa và thực hiện truy vấn xóa trong cơ sở dữ liệu.
 Bước 4: Kết nối PHP với cơ sở dữ liệu MySQL
 Trong các tệp PHP, sử dụng các hàm như mysqli_connect() và mysqli_query() để kết nối và thực hiện các truy vấn SQL.
-Bước 5: Kiểm tra và Debug
-Kiểm tra các trang HTML và chắc chắn rằng chúng hoạt động như mong đợi.
-Kiểm tra tính bảo mật và xử lý lỗi.
 
 
 Detail
